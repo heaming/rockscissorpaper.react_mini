@@ -1,72 +1,55 @@
-# http://rockscissorpaper.react-minigame.s3-website.ap-northeast-2.amazonaws.com/
+# ✌가위바위보게임(Rock paper scissors)
+> * 리액트로 만든 가위바위보
+> * 링크: http://rockscissorpaper.react-minigame.s3-website.ap-northeast-2.amazonaws.com/
 
-# Getting Started with Create React App
+![image](https://user-images.githubusercontent.com/85826542/138399396-c43b85bd-6b1b-4eb4-a4b6-09f9cc4d00fc.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 1. Tech Stack  
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/React.js-20B2AA?style=flat-square&logo=react&logoColor=white"/></a> &nbsp
+<!--<img src="https://img.shields.io/badge/JSON-3DDC84?style=flat-square&logo=JSON&logoColor=white"/></a> &nbsp
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/></a> &nbsp 
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a> &nbsp 
+<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a> &nbsp -->
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/></a> &nbsp </p> <br/>
 
-In the project directory, you can run:
 
-### `npm start`
+## 2. Usage
+<img src="https://user-images.githubusercontent.com/85826542/138441989-14318758-d984-4b17-b92e-0a82ec1ee894.gif" width="75%" height="75%">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* 배점
+  + 배점을 입력해, 승리 시 획득할 점수를 설정합니다.
+* 가위, 바위, 보 버튼
+  + 하단의 가위, 바위, 보 버튼을 눌러 컴퓨터와 대결합니다.
+* 승부기록
+  + 매회 승자가 기록됩니다.
+* 점수판
+  + 승리 시, 상단에 배점만큼의 점수가 합산됩니다.
+  + 무승부 시, 플레이어와 컴퓨터 모두 점수를 받습니다.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## 3. Code
+* 대화 주고 받기
+  + 채팅창에 명령어를 입력한 후, enter키를 누르거나 <입력>을 클릭하세요.
+  + 챗봇이 기본으로 알고 있는 말은 "안녕", "안녕하세요", "넌 누구니?" 등이 있습니다.
+  + 사용코드
+  
+* 언어 습득
+  + 챗봇에게 명령어를 알려줄 수 있습니다.
+  + 챗봇이 명령어를 이해하지 못한다면, 기대하는 답변을 적어 챗봇에게 알려주세요.
+  + 챗봇은 습득한 언어를 JSON형태로 저장합니다.
+  
+* 쿠키 기능
+  + "사라져"를 입력해보세요.
+  + "나타나"를 입력해보세요.
+  + "공룡"을 입력해보세요.
+  + "원상복귀"를 입력해보세요.
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
