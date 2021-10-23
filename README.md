@@ -1,4 +1,4 @@
-# ✌가위바위보게임(Rock paper scissors)
+# ✌가위바위보게임(Rock Scissors Paper)
 > * 리액트로 만든 가위바위보
 > * 링크: http://rockscissorpaper.react-minigame.s3-website.ap-northeast-2.amazonaws.com/
 
